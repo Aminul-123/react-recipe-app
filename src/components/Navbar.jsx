@@ -12,13 +12,13 @@ function Navbar() {
     }
   return (
    <>
-   <div className='flex h-[3rem] w-full bg-orange-800'>
+   <div className='flex h-[3rem] w-full bg-orange-800 items-center '>
     <div>
         <Link to={'/'} >React Recipe App</Link>
     </div>
     <div className='px-4 text-black'>
         <form onSubmit={handleSubmit} >
-        <input type="text" placeholder='search Item' value={input} onChange={(e) => setInput(e.target.value)}  />
+        <input type="text" placeholder='..your favourite food' value={input} onChange={(e) => setInput(e.target.value)} className='p-1' />
         </form>
         
     </div>
