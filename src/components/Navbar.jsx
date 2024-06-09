@@ -12,7 +12,7 @@ function Navbar() {
     }
   return (
    <>
-   <div className='flex h-[3rem] w-full bg-blue-800'>
+   <div className='flex h-[3rem] w-full bg-orange-800'>
     <div>
         <Link to={'/'} >React Recipe App</Link>
     </div>
